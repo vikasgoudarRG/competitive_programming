@@ -3,6 +3,9 @@
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
+    /*
+        to be more memory efficient you can re use obstacleGrid
+    */
         // 1d appraoch, with perspective from goal
     int m = grid.size();
     int n = grid[0].size();
