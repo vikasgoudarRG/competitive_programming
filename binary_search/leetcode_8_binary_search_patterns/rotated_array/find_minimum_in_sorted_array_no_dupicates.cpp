@@ -1,4 +1,7 @@
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1656360342/?envType=study-plan-v2&envId=binary-search
+/*
+    Array Doesn't Have Duplciate Elements
+*/
 
 class Solution {
 public:
