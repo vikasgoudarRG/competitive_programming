@@ -1,1 +1,2 @@
 I am so used to c++ that I hate python now apparently
+In school I was so used to python I didn't like C++ and Java and thought they were too jargony, and now I miss them
