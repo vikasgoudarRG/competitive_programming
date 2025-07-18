@@ -1,4 +1,4 @@
-package _90_ques_sprint.arrays_and_hashing.majority_element;
+package q90_sprint.arrays_and_hashing.majority_element;
 
 import java.util.Arrays;
 import java.util.HashMap;

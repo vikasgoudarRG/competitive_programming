@@ -1,4 +1,4 @@
-package _90_ques_sprint.arrays_and_hashing.contains_duplicate;
+package q90_sprint.arrays_and_hashing.contains_duplicate;
 
 import java.util.Arrays;
 import java.util.HashSet;

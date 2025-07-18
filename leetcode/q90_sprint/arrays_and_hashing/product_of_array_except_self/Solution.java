@@ -1,4 +1,4 @@
-package _90_ques_sprint.arrays_and_hashing.product_of_array_except_self;
+package q90_sprint.arrays_and_hashing.product_of_array_except_self;
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {

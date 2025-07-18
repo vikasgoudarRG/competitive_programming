@@ -1,4 +1,4 @@
-package _90_ques_sprint.arrays_and_hashing.valid_anagram;
+package q90_sprint.arrays_and_hashing.valid_anagram;
 
 import java.util.Arrays;
 import java.util.HashMap;

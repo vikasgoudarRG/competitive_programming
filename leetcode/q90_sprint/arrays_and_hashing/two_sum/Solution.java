@@ -1,4 +1,4 @@
-package _90_ques_sprint.arrays_and_hashing.two_sum;
+package q90_sprint.arrays_and_hashing.two_sum;
 
 import java.util.HashMap;
 import java.util.Map;
