@@ -1,0 +1,9 @@
+two pointers/ sliding window
+prefix sum/ difference arrays
+binary search (on answer)
+greedy
+dfs/ bfs
+union find (disjoin sets)
+segment tree/ fenwick tree 
+graph algorithms
+
