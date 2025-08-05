@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/split-array-largest-sum/description/
 
 #include <vector>
+#include <algorithm>
+#include <climits>
 using namespace std;
 
 class Solution {
@@ -86,8 +88,8 @@ public:
     }
 
     // Bottom Up Dp
-    // Time Complexity 
-    // Space Complexity 
+    // Time Complexity O(N^2 * K)
+    // Space Complexity O(N * K)
     int bottom_up_dp_manager(const vector<int>& nums, int k) {
         vector<vector<int>> dp(nums.size(), vector<int>(k + 1));
         vector<int> prefix_sum(nums.size() + 1, 0);
