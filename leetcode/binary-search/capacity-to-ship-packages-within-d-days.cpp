@@ -11,8 +11,8 @@ public:
 
     // My Soln
     // Binary search the solution
-    // Time Complexity 
-    // Space Complexity 
+    // Time Complexity O(logn * n)
+    // Space Complexity O(1)
     int my_binary_search(const vector<int>& weights, int days) {
         int low = weights[0];
         int high = weights[0];
