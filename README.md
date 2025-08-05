@@ -5,6 +5,7 @@ TODO:
     Master's theorem
     Read square root soln 3, leetcode.com/problems/sqrtx
     Why just Binary search why not N-ary search, (for example ternary search (split into 3) or why not more) what is the answer to this?
+    split array largest sum time complexity dp 
 
 WTF:
     calculating square root 
