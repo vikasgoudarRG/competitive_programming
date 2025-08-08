@@ -1,0 +1,21 @@
+fast I/O
+    ```cpp
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    ```
+
+    std::ios_base::sync_with_stdio(false);
+        by default, c++ streams `cin` and `cout` are synchronized with C streams `scanf` and `printf` 
+        this synchronization has some overhead 
+        so `std::ios_base_sync_with_stdio(false)` turns of the synchronization and makes the Cpp and C streams independent 
+
+    std::cin.tie(NULL)
+        by default `cin` is tied to `cout`, meaning every time you do an input (`cin`), it automatically flushes the output buffer of `cout` to ensure everything is printed 
+            before waiting for input 
+        so `std::cin.tie(NULL)` 
+            unties `cin` from `cout`
+
+        if you want to flush output buffer manually then 
+            use `std::flush`
+    
+    
