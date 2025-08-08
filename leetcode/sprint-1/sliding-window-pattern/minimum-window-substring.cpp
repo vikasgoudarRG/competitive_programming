@@ -18,6 +18,7 @@ public:
         return optimized_sliding_window(s, t);
     }
 
+private:
     // Sliding Window 
     // Time Complexity O(t + 2s) // O(n)
     //                  where n -> size of s

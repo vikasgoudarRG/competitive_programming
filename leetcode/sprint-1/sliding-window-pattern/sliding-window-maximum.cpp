@@ -14,6 +14,7 @@ public:
         return sliding_window(nums, k);
     }
 
+private:
     // Sliding Window 
     // Time Complexity O(n)
     // Space Complexity O(k), where k is size of window

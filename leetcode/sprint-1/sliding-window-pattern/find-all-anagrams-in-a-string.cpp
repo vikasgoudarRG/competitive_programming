@@ -17,6 +17,7 @@ public:
         return sliding_window_optimized(s, p);
     }
 
+private:
     // Sliding Window 
     // Time Complexity O(p + s)
     // Time Complexity O(2*p) // O(p)

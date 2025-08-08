@@ -23,6 +23,7 @@ public:
     }
 
 
+private:
     // My Soln 
     // Time Complexity O(2*n) = O(n)
     // Space Complexity O( min(m, n) )
