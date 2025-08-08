@@ -20,6 +20,11 @@ private:
      * @param words - vector of string, each string is a word which we need
      * @return - vector of integers, where each element is the starting index of a substring of combination of words needed
      */
+    // Time Complexity O(k + k * n/k * 2)
+    // Space Complexity O(2*w)
+    // where w -> len of words
+    // where k -> len of word
+    // where s -> len of string s
     std::vector<int> my_sliding_window(const std::string& s, const std::vector<std::string>& words) {
         std::vector<int> ans;
 
