@@ -2,12 +2,15 @@
 
 #include <vector>
 #include <deque>
+#include <iostream>
 
 using namespace std;
 
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        std::ios_base::sync_with_stdio(false);
+        std::cin.tie(NULL);
         return sliding_window(nums, k);
     }
 

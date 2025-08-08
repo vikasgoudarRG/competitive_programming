@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <climits>
 #include <utility>
+#include <iostream>
 #include <vector>
 
 using namespace std;
@@ -11,6 +12,8 @@ using namespace std;
 class Solution {
 public:
     string minWindow(string s, string t) {
+        std::ios_base::sync_with_stdio(false);
+        std::cin.tie(NULL);
         // return sliding_window(s, t);
         return optimized_sliding_window(s, t);
     }

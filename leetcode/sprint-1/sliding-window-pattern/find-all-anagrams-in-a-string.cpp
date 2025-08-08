@@ -4,12 +4,15 @@
 #include <unordered_map>
 #include <array>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
+        std::ios_base::sync_with_stdio(false);
+        std::cin.tie(NULL);
         // return sliding_window(s, p);
         return sliding_window_optimized(s, p);
     }
@@ -44,7 +47,7 @@ public:
             }
 
             while (high - low + 1 > p_char_total) {
-                char c_low = s[low];\
+                char c_low = s[low];
                 if (s_run_char_freq.count(c_low)) {
                     if (s_run_char_freq[c_low] == p_char_freq[c_low]) {
                         run_needed++;
